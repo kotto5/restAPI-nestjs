@@ -65,5 +65,8 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "prisma": {
+    "seed": "ts-node /workspaces/restAPI-nestjs/prisma/seed.ts"
   }
 }
